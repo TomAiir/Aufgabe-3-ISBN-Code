@@ -1,0 +1,23 @@
+{
+  "name": "Aufgabe-3-ISBN-Code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomAiir/Aufgabe-3-ISBN-Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomAiir/Aufgabe-3-ISBN-Code/issues"
+  },
+  "homepage": "https://github.com/TomAiir/Aufgabe-3-ISBN-Code#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
