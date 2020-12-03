@@ -11,6 +11,7 @@ Die eingegebene ISBN kann neben Ziffern auch Bindestriche enthalten. Diese könn
 Die eingegebene ISBN kann an letzter Stelle auch ein 'X' stehen haben, diese ist als die Zahl 10 zu behandeln.
 Die Prüfziffer muss als String zurück gegeben werden. Falls die Prüfziffer den Wert 10 ergibt soll anstatt '10' besser 'X' zurück gegeben werden.
 Falls die Prüfziffer 0 ergibt, soll ein leerer String zurück gegeben werden: ''
+
 b simple
 Legen Sie eine HTML-Seite mit einem input-Feld und einem Button mit der Beschrüfung "prüfen" an. So bald "Prüfen angeklickt wird" soll ein div mit grüner Schrift anzeigen: "ISBN OK". Ist die eingegebene ISBN nicht korrekt soll ein div mit roter Schrift angezeigt werden: "ISBN corrupt".
 
