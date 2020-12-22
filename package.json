@@ -2,9 +2,11 @@
   "name": "Aufgabe-3-ISBN-Code",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "check-ISBN.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "ws",
+    "build": "webpack --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,11 @@
   },
   "homepage": "https://github.com/TomAiir/Aufgabe-3-ISBN-Code#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "local-web-server": "^4.2.1"
   }
 }
