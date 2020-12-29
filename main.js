@@ -29,5 +29,5 @@ function check () {
 
 
 }
-const button = document.querySelector('#check-button');
-button.addEventListener('click', check);
+const refresh = document.querySelector('#input');
+refresh.addEventListener('input', check);
