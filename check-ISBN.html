@@ -10,9 +10,13 @@
 
 <body>
     <div class="container">
-        <h1 class="main">ISBN-Check</h1>
+        <h1 class="main">ISBN10-Check</h1>
         <div class="main">
-            <input id="input" name="s" size="40" type="text" placeholder="ISBN eingeben" />
+            <input id="firstInput" name="firstInput" size="13" type="text" maxlength="1" placeholder="Ländernummer" /> -
+            <input id="secondInput" name="secondInput" size="13" type="text" maxlength="3" placeholder="Verlagsnummer" /> -
+            <input id="thirdInput" name="thirdInput" size="10" type="text" maxlength="5" placeholder="Titelnummer" /> -
+            <input id="fourthInput" name="fourthInput" size="7" type="text" maxlength="1" placeholder="Prüfziffer" />
+            
         </div>
         <div class="output">
             <p class="color-red" id="output"></p>

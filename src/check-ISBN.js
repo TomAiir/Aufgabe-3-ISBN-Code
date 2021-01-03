@@ -1,3 +1,15 @@
+function connectedInputs(firstInput, secondInput, thirdInput, fourthInput) {
+    var str1 = firstInput;
+    var str2 = secondInput;
+    var str3 = thirdInput;
+    var str4 = fourthInput;
+    
+    var numbers = str1.concat(str2, str3, str4);
+
+    return checkISBN(numbers);
+}
+
+
 function checkISBN(numbers) {
 
 
@@ -34,5 +46,6 @@ function checkISBN(numbers) {
 };
 
 module.exports = {
-    checkISBN
+    checkISBN,
+    connectedInputs
 }
