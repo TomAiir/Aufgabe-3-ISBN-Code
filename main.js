@@ -10,7 +10,11 @@ function check() {
 
     var inputArray = input.split("");
     var last = inputArray[inputArray.length - 1];
-    console.log(input); // wrong input?
+    console.log('firstInput'+ firstInput);
+    console.log('secondInput'+secondInput);
+    console.log('thirdInput'+thirdInput);
+    console.log('fouthInput'+fourthInput);
+    console.log('input'+input); // wrong input?
     console.log(checkISBN(input));
 
     if (checkISBN(input) === last) {

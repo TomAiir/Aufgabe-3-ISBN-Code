@@ -6,7 +6,7 @@ function connectedInputs(firstInput, secondInput, thirdInput, fourthInput) {
     
     var numbers = str1.concat(str2, str3, str4);
 
-    return checkISBN(numbers);
+    return numbers;
 }
 
 
